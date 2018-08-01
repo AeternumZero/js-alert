@@ -1,7 +1,7 @@
 {
-  "name": "js-alert",
-  "version": "1.0.4",
-  "description": "A simple JavaScript popup alert manager.",
+  "name": "jsalert-maxwidth",
+  "version": "1.0.0",
+  "description": "A simple JavaScript popup alert manager. with change on the popup width",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm install && gulp test",
