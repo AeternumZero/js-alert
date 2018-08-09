@@ -107,7 +107,7 @@ export default class JSAlert extends EventSource {
 		this.textFields	= [];
 		this.result		= false;
 		this.iconURL	= null;
-		this.cancelable = true;
+		this.cancelable = false;
 		this.cancelled	= false;
 		this.dismissed	= false;
 		
@@ -296,7 +296,7 @@ export default class JSAlert extends EventSource {
 		
 		// Create window
 		this.elems.window = document.createElement("div");
-		this.elems.window.style.cssText = "position: relative; background-color: rgba(255, 255, 255, 0.95); box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); border-radius: 5px; padding: 10px; min-width: 50px; min-height: 10px; max-width: 80%; max-height: 90%; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); ";
+		this.elems.window.style.cssText = "position: relative; background-color: rgba(255, 255, 255, 0.95); box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); border-radius: 5px; padding: 10px; min-width: 60%; min-height: 10px; max-width: 80%; max-height: 90%; backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); ";
 		this.elems.container.appendChild(this.elems.window);
 		
 		// Create icon if there is one
