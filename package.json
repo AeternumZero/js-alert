@@ -1,6 +1,6 @@
 {
   "name": "jsalert-maxwidth",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A simple JavaScript popup alert manager. with change on the popup width and custom alert prevent outside click",
   "main": "lib/index.js",
   "scripts": {
